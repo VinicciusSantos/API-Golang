@@ -48,7 +48,6 @@ var pessoas = []pessoa{
 
 func main() {
 	router := gin.Default()
-	router.GET("/", getProjetos)
 
 	router.GET("/projetos", getProjetos)
 	router.GET("/projetos/:id", getProjetoByID)
