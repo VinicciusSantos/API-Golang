@@ -1,7 +1,7 @@
 module example/web-service-gin
 
 go 1.18
-// +heroku goVersion go1.18.3
+// +heroku goVersion go1.18
 
 require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
