@@ -1,1 +1,7 @@
-web: bin/API-Golang
+web: main.go
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8080;
+}
+app.listen(port);
